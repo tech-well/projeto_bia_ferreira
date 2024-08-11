@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CL:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CL:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #224fb4;
+    /* position: fixed; */
+    /* bottom: 37.5rem; */
+    height: 100px;
+    width: auto;
+    
+}
+
+.efeito{
+    position: relative;
+    animation: efeito 5s infinite;
+    animation-direction: alternate-reverse;  
+}
+@keyframes efeito {
+    from {left: -5rem;}
+    to {left: 5rem;}
+  }
+
+.header nav {
+    display: flex;
+    padding: 28px;
+    justify-content: space-between;
+    
+}
+
+.header nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.header nav a:hover{
+    color: rgb(223, 223, 110);
+    border-bottom: solid 1px rgb(223, 223, 110);
+}
+
+.header__navebar2{
+    display: flex;
+    gap: 12px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 1000px;
+    height: 350px;
+    align-content: flex-start;
+    align-items: flex-start;
+    
+    
+}
+
+/* .section img{
+    position: relative;
+} */
+
+.texto{
+    
+    width: 500px;
+    height: 220px;
+    text-align: center;
+}
+
+.texto h1{
+    color: green;
+    font-family: "Roboto", sans-serif;
+}
+
+.texto p{
+    text-align: justify;
+    color: #224fb4;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.section__img{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.section__img figcaption{
+    width: 260px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #224fb4;
+}
+
+section .bia{
+    width:260px;
+}
+
+
+
+.bia_1{
+    position: relative;
+    bottom: 80px;
+    width: 274px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #224fb4;
+    height: 124px;
+}
+
+.footer__rodape{
+    
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__rodape a{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    gap: 9px;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+ 
