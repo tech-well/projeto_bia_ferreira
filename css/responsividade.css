@@ -1,5 +1,14 @@
  @media(max-width: 37.5rem) {
-
+      
+    .efeito{
+        position: relative;
+        animation: efeito 5s infinite;
+        animation-direction: alternate-reverse;  
+    }
+    @keyframes efeito {
+        from {left: -5rem;}
+        to {left: 5rem;}
+      }
 
     .header{
         width: 100%;
@@ -21,6 +30,7 @@
     }
 
     .section{
+        height: 270px;
         width: 100%;
     }
 
@@ -65,5 +75,52 @@
       
     }
 
+    .footer__rodape .brasao_brasil{
+        margin-right: 30px;
+        width: 5rem;
+    }
+
   
 } 
+
+@media(min-width:37.6rem) and (max-width:60rem){
+  .section{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section__img{
+     flex-direction: column;
+     align-items: center;
+     gap: 15px;
+     margin-top: 100px;
+  }
+
+  .section__img .bia_1{
+    position: relative;
+    top: 0;
+    left: 110px;
+    width: 65%;
+    border-radius: 30px;
+  }
+  .section__img .bia{
+    width: 120%;
+    border-radius: 30px;
+  }
+
+  .aneis_olimpiadas{
+    width: 100%;
+    position: relative;
+    left: 40px;
+  }
+
+   .footer__rodape .brasao_brasil{
+    margin-right: 20px;
+    width: 5rem;
+   }
+
+   .footer__rodape a{
+    width: 5rem;
+   }
+}
