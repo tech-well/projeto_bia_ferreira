@@ -69,12 +69,17 @@ body {
 
 input {
     height: 30px;
+    border: 0px;
+}
+
+input :visited{
+ border: solid 1px rgb(223, 223, 110);
 }
 
 .label {
     color:  #224fb4;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
