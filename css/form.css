@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CL:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #edf0f5;
+}
 
 .header {
     background-color: #224fb4;
@@ -5,14 +10,14 @@
     /* bottom: 37.5rem; */
     height: 100px;
     width: auto;
-    
+
 }
 
 .header nav {
     display: flex;
     padding: 28px;
     justify-content: space-between;
-    
+
 }
 
 .header nav a {
@@ -24,28 +29,34 @@
     font-size: 24px;
 }
 
-.header nav a:hover{
+.header nav a:hover {
     color: rgb(223, 223, 110);
     border-bottom: solid 1px rgb(223, 223, 110);
 }
 
-.header__navebar2{
+.header__navebar2 {
     display: flex;
     gap: 12px;
 }
 
-.efeito{
+.efeito {
     position: relative;
     animation: efeito 5s infinite;
-    animation-direction: alternate-reverse;  
+    animation-direction: alternate-reverse;
 }
+
 @keyframes efeito {
-    from {left: 0;}
-    to {left: 5rem;}
-  }
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 5rem;
+    }
+}
 
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -53,25 +64,29 @@
     margin: auto;
     width: 70rem;
     flex-wrap: wrap;
-    
+
 }
 
-input{
+input {
     height: 30px;
 }
 
-.label{
-display: flex;
-flex-direction: column;
+.label {
+    color:  #224fb4;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 
-.endereco{
+.endereco {
     display: flex;
     gap: 20px;
     justify-content: space-between;
 }
 
-.label__endereco{
+.label__endereco {
     width: 80%;
 }
 
@@ -101,7 +116,7 @@ flex-direction: column;
 
 
 
-.footer{
+.footer {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -109,15 +124,15 @@ flex-direction: column;
     height: 124px;
 }
 
-.footer__rodape{
-    
+.footer__rodape {
+
     width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer__rodape a{
+.footer__rodape a {
     color: white;
     display: flex;
     align-items: center;
@@ -125,12 +140,10 @@ flex-direction: column;
     font-size: 16px;
     gap: 9px;
     text-decoration: none;
-    
+
 }
 
-.footer__rodape .brasao_brasil{
+.footer__rodape .brasao_brasil {
     margin-right: 30px;
     width: 5rem;
 }
-
-

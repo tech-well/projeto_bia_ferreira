@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body{
+    background-color:  #edf0f5;
+}
+
 .header {
     background-color: #224fb4;
     /* position: fixed; */
