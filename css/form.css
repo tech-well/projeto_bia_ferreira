@@ -68,13 +68,36 @@ body {
 }
 
 input {
+    color: #224fb4;
+    font-size: 20px;
     height: 30px;
-    border: 0px;
+    border: solid 2px #edf0f5;
+    outline: none;
+
+    
 }
 
-input :visited{
- border: solid 1px rgb(223, 223, 110);
+input:hover{
+    border: solid 2px rgb(223, 223, 110);
+    transition: 0.2s;
 }
+input:active{
+    border: solid 2px  #224fb4;
+    transition: 0.2;
+}
+
+textarea{
+    min-width: 100%;
+    max-width: 1124px;
+    min-height: 200px;
+    max-height: 200px;
+    outline: none;
+    border: 0px;
+    
+}
+
+
+
 
 .label {
     color:  #224fb4;
@@ -83,6 +106,7 @@ input :visited{
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
+
 }
 
 .endereco {
@@ -96,30 +120,11 @@ input :visited{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.cep__bairro{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .footer {
     display: flex;
@@ -146,6 +151,12 @@ input :visited{
     gap: 9px;
     text-decoration: none;
 
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .footer__rodape .brasao_brasil {
