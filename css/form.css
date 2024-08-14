@@ -43,6 +43,8 @@
     from {left: 0;}
     to {left: 5rem;}
   }
+
+
 .formulario{
     display: flex;
     flex-direction: column;
@@ -52,6 +54,10 @@
     width: 70rem;
     flex-wrap: wrap;
     
+}
+
+input{
+    height: 30px;
 }
 
 .label{
@@ -68,6 +74,8 @@ flex-direction: column;
 .label__endereco{
     width: 80%;
 }
+
+
 
 
 
